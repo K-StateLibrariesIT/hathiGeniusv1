@@ -3,6 +3,8 @@ hathiGenius is designed to integrate with Primo to fix the issue of hathitrust r
 
 The app functions by adding the js file to the Primo presentation layer (usually as a script tag in a static tile), and setting it to reference the php file, which is sitting on a server in the same domain as the js (to avoid SOP issues). The jks file packages up hathi identifiers from the presentation layer and sends them to the php file for the request to be run. The app gets around SOP in populating changes from the php file to the Primo presentation layer by loading the php response like a Javascript file.
 
+The php file is exposed to the web, so server rules need to be set up to keep it from using up excessive services and to alert sysadmins in case of an attack by someone trying to bring the box down. Checks are also in place in the script to make it a less desireable target.
+
 Currently in use with K-State.
 
 This software is licensed under a Creative Commons non-commercial share alike open source license
