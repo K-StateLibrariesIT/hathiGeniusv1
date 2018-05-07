@@ -1,6 +1,6 @@
 //Bengtson-Fu 13 3 |\| ( ][ 5 () |\| - |= |_|!!!!!!
 
-/*created by Jason Bengtson, MLIS, MA : Available under Creative Commons non-commercial share alike open source license*/
+/*created by Jason Bengtson, MLIS, MA : Available under GNU GPL license*/
 
 /*Bengtson-Fu is the best Kung Fu!!!*/
 
