@@ -7,4 +7,4 @@ The php file is exposed to the web, so server rules need to be set up to keep it
 
 Currently in use with K-State.
 
-This software is licensed under a Creative Commons non-commercial share alike open source license
+This software is licensed under a GNU GPL license
